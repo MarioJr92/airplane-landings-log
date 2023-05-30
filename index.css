@@ -1,7 +1,7 @@
 @font-face {
-    font-family:  Airborne;
+    font-family: Airborne;
     src: url("airborne.ttf");
-} 
+}
 
 body {
     background-image: url("landing-jet.jpg");
@@ -18,7 +18,8 @@ body {
 
 #container {
     max-width: 100%;
-    padding: 0 20px; /* Increase readability on smaller screens */
+    padding: 0 20px;
+    /* Increase readability on smaller screens */
 }
 
 h1 {
@@ -31,7 +32,7 @@ h2 {
     margin-top: 30px;
 }
 
-h1, 
+h1,
 h2 {
     margin-bottom: 30px;
 }
@@ -72,11 +73,11 @@ button {
     h1 {
         font-size: 30px;
     }
-    
+
     h2 {
         font-size: 40px;
     }
-    
+
     button {
         width: 150px;
     }
@@ -86,15 +87,15 @@ button {
     h1 {
         font-size: 24px;
     }
-    
+
     h2 {
         font-size: 32px;
     }
-    
+
     button {
         width: 120px;
     }
-    
+
     #save-el {
         font-size: 16px;
     }
