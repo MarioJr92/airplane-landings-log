@@ -1,0 +1,101 @@
+@font-face {
+    font-family:  Airborne;
+    src: url("airborne.ttf");
+} 
+
+body {
+    background-image: url("landing-jet.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    font-family: Airborne, sans-serif;
+    text-align: center;
+    text-shadow: 0 0 2px #000;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    max-width: 100%;
+    padding: 0 20px; /* Increase readability on smaller screens */
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+h1, 
+h2 {
+    margin-bottom: 30px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    width: 200px;
+    border-radius: 5px;
+    font-family: Airborne;
+}
+
+#increment-btn {
+    background: darkred;
+    border: 5px solid #f2c9af;
+}
+
+#save-btn {
+    background: #003a65;
+    border: 5px solid #a0d0ec;
+}
+
+#save-el {
+    font-size: 20px;
+    margin-top: 40px;
+    line-height: 35px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+    }
+    
+    h2 {
+        font-size: 40px;
+    }
+    
+    button {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 24px;
+    }
+    
+    h2 {
+        font-size: 32px;
+    }
+    
+    button {
+        width: 120px;
+    }
+    
+    #save-el {
+        font-size: 16px;
+    }
+}
